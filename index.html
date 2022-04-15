@@ -20,17 +20,15 @@
     <main class="main-content">
         <section class="search-select">
             <div aria-label="barre de recherche" class="search-bar">
-                <form action="" class="search-form">
-                    <label for="main search" class="visually-hidden"></label>
-                    <input class="searchbar-input" type="search" placeholder="Ingrédients, Appareils, Ustensils" minlength="3">
-                    <div class="icon"><i class="fas fa-search"></i></div>
-                </form>
+                <label for="main search" class="visually-hidden"></label>
+                <input class="input searchbar-input" type="search" placeholder="Ingrédients, Appareils, Ustensils" minlength="3">
+                <div class="icon"><i class="fas fa-search"></i></div>
             </div>
             <div class="tag-container"></div>
             <div class="select-container">
                 <div class=" select ingredients-select">
                     <label for="indredients"></label>
-                    <input class="ingredients" type="text" placeholder="Ingrédients">
+                    <input class="input ingredients" data-attribute="ingredients" type="text" placeholder="Ingrédients">
                     <div class="icon-container">
                         <i class="fas fa-chevron-down"></i>
                         <i class="fas fa-chevron-up"></i>
@@ -39,7 +37,7 @@
                 </div>
                 <div class="select appliance-select">
                     <label for="appliances"></label>
-                    <input class="appliances" type="text" placeholder="Appareils">
+                    <input class="input appliances" data-attribute="appliances" type="text" placeholder="Appareils">
                     <div class="icon-container">
                         <i class="fas fa-chevron-down"></i>
                         <i class="fas fa-chevron-up"></i>
@@ -48,7 +46,7 @@
                 </div>
                 <div class="select ustensils-select">
                     <label for="ustensils"></label>
-                    <input class="ustensils" type="text" placeholder="Ustensils">
+                    <input class="input ustensils" data-attribute="ustensils" type="text" placeholder="Ustensils">
                     <div class="icon-container">
                         <i class="fas fa-chevron-down"></i>
                         <i class="fas fa-chevron-up"></i>
